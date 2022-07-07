@@ -1,0 +1,21 @@
+{
+    "name": "Lumos",
+    "desciption": "Go from Dark Mode to Light Mode and Vice Versa",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "background" :{
+        "scripts":[
+            "popup.js"
+        ],
+        "persisten": true
+    },
+    "browser_action":{
+        "default_title": "Lumos",
+        "default_popup": "popup.html"
+    },
+    "permissions":[
+        "https://*/*",
+        "http://*/*",
+        "tabs"
+    ]
+}
